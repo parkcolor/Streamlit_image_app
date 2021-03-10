@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image, ImageFilter, ImageEnhance
 from datetime import datetime
 import os
-
+#깃 연동
 
 def load_image(image_file): #이미지 파일 불러오기
     img = Image.open(image_file)
